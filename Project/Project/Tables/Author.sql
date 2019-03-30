@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Author]
+(
+	[AuthorID] INT NOT NULL PRIMARY KEY, 
+    [FirstName] NVARCHAR(255) NOT NULL, 
+    [LastName] NVARCHAR(255) NOT NULL, 
+    [TFN] VARCHAR(9) NOT NULL
+)
