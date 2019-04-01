@@ -35,4 +35,11 @@ INSERT INTO Book (ISBN, Title, YearPublished, AuthorID) VALUES
 ('978-3-16-148410-2', 'TCP/IP, the protocol for the masses.', 1983, 76543),
 ('978-3-16-148410-3', 'The Man, the Bombe, and the Enigma', 1940, 12345);
 
+-- One physical copy of every book
+INSERT INTO BookCopy (ISBN, CopyCount, StudentID) VALUES
+('978-3-16-148410-0', 1, null),
+('978-3-16-148410-1', 1, null),
+('978-3-16-148410-2', 1, null),
+('978-3-16-148410-3', 1, null);
+
 END;

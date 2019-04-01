@@ -1,6 +1,12 @@
-﻿################################################################################
+################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
 /Project/Project/obj/Debug
 /Project/Project/bin/Debug
+Project/ProjectAPI/Properties/launchSettings.json
+.vs/
+Project/ProjectAPI/bin/
+Project/ProjectAPI/obj/
+Project/Project/ProjectDatabase.jfm
+Project/Project/ProjectDatabase.dbmdl
